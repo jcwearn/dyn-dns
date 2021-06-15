@@ -1,0 +1,18 @@
+[
+    {
+        "hostedZoneId": "some-hosted-zone-id",
+        "name": "example.com."
+    },
+    {
+        "hostedZoneId": "some-hosted-zone-id",
+        "name": "sub.example.com."
+    },
+    {
+        "hostedZoneId": "some-other-hosted-zone-id",
+        "name": "example.com."
+    },
+    {
+        "hostedZoneId": "some-other-hosted-zone-id",
+        "name": "sub.example.com."
+    }
+]

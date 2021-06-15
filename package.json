@@ -1,0 +1,16 @@
+{
+  "name": "dyn-dns",
+  "version": "1.0.0",
+  "description": "route53 dynamic dns script",
+  "main": "update-dns.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jacksonwearn@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.922.0",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2"
+  }
+}
