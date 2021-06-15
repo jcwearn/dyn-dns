@@ -2,10 +2,6 @@ version: '3.5'
 
 services:
   dyn-dns:
-    image: node:14.5.0-alpine
-    command: node update-dns.js records.json
-    working_dir: /src
-    volumes:
-      - ./records.json:/src/records.json
-      - ./update-dns.js:/src/update-dns.js
-      - ./node_modules:/src/node_modules
+    build:
+      dockerfile: Dockerfile
+      context: ./
